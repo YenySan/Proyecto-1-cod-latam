@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2? family=Lato:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: auto;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: "Lato", sans-serif;
+  line-height: 1.5;
+}
+
+header {
+  width: 100vw;
+  height: 90px;
+  position: fixed;
+  background-color: #fbfbfb;
+  box-shadow: 0 4px 0 rgba(0, 0, 0, 0.08), 0 3px 5px 0 rgba(0, 0, 0, 0.12);
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 20px;
+}
+
+main {
+  max-width: 1200px;
+  background-color: #fbfbfb;
+  padding: 20px;
+}
+
+#inicio {
+  margin-top: 100px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.photo {
+  border-radius: 50%;
+  width: 300px;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+p {
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+button {
+  background-color: #af599e;
+  color: #fbfbfb;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 30px;
+  font-size: 10px;
+}
+
+#contacto {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+article {
+  background-color: rgba(175, 89, 158, 0.3);
+  border-radius: 10px;
+  padding: 30px;
+}
+
+div {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.icon {
+  width: 200px;
+  padding: 10px;
+  margin: 0px 30px;
+}
+
+footer {
+  max-width: 1200px;
+  height: 90px;
+  background-color: #af599e;
+  color: #fbfbfb;
+  text-align: center;
+}
+
+h3 {
+  font-size: 28px;
+  padding: 25px;
+}
