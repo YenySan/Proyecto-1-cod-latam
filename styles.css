@@ -38,7 +38,6 @@ a {
 main {
   max-width: 1200px;
   background-color: #fbfbfb;
-  padding: 20px;
 }
 
 section{
@@ -55,6 +54,7 @@ section{
   margin-top: 110px;
   border-radius: 50%;
   width: 350px;
+  max-width: 400px;
 }
 
 h1 {
@@ -78,15 +78,9 @@ button {
   font-size: 20px;
 }
 
-#contacto {
-  width: 100%;
-  min-width: 280px; max-width: 1200px;
- justify-content: center;
-}
-
 article {
   background-color: rgba(175, 89, 158, 0.3);
-  border-radius: 10px;
+  border-radius: 15px;
   padding: 20px;
   margin: 30px;
 }
@@ -96,16 +90,17 @@ h2 {
   text-align: center;
 }
 
-div{
+ul{
   display: flex;
   flex-direction: row;
   justify-content: center;
-  width: 50vw;
+  list-style: none;
+  width: 100vw;
 }
 
 .icon {
-  width: 25vw;
-  margin-top: 20px;
+  width: 50px;
+  margin: 20px;  
 }
 
 footer {
