@@ -21,13 +21,17 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 10px;
+  padding: 20px;
 }
 
 a {
   text-decoration: none;
   color: inherit;
   font-size: 20px;
+}
+
+#name {
+  width: 150px;
 }
 
 main {
@@ -41,7 +45,6 @@ main {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 
@@ -64,18 +67,17 @@ button {
   background-color: #af599e;
   color: #fbfbfb;
   border: none;
-  border-radius: 20px;
+  border-radius: 30px;
   padding: 10px;
-  margin: 30px;
-  font-size: 10px;
+  font-size: 20px;
 }
 
 #contacto {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: space-evenly
 }
 
 h2 {
@@ -89,10 +91,16 @@ article {
   padding: 30px;
 }
 
+div{
+  max-width: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 .icon {
-  width: 200px;
-  padding: 10px;
-  margin: 0px 30px;
+  width: 100px;
+  margin: 0px 40px;
 }
 
 footer {
