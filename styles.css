@@ -10,7 +10,7 @@
 }
 
 header {
-  width: 100vw;
+  width: 100%;
   height: 90px;
   position: fixed;
   background-color: #fbfbfb;
@@ -31,7 +31,7 @@ a {
 }
 
 #name{
-  padding: 20px;
+  padding: 25px;
   width: 200px;
 }
 
@@ -42,12 +42,13 @@ main {
 }
 
 section{
+  min-height: 100vh; 
   min-width: 50vw;
   max-width: 100vw;
-  height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-content: center;
+  justify-content: center;
 }
 
 .photo {
@@ -78,11 +79,16 @@ button {
 }
 
 #contacto {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly
+  width: 100%;
+  min-width: 280px; max-width: 1200px;
+ justify-content: center;
+}
+
+article {
+  background-color: rgba(175, 89, 158, 0.3);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 30px;
 }
 
 h2 {
@@ -90,27 +96,20 @@ h2 {
   text-align: center;
 }
 
-article {
-  background-color: rgba(175, 89, 158, 0.3);
-  border-radius: 10px;
-  padding: 30px;
-  
-}
-
 div{
-  width: 50vw;
   display: flex;
   flex-direction: row;
   justify-content: center;
+  width: 50vw;
 }
 
 .icon {
   width: 25vw;
-  padding: 0px 10px;
+  margin-top: 20px;
 }
 
 footer {
-  max-width: 1200px;
+  width: 100%;
   height: 90px;
   background-color: #af599e;
   color: #fbfbfb;
