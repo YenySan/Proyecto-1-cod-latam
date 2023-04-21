@@ -2,7 +2,7 @@
 
 * {
   box-sizing: border-box;
-  margin: auto;
+  margin: 0 auto;
   padding: 0;
   scroll-behavior: smooth;
   font-family: "Lato", sans-serif;
@@ -17,21 +17,22 @@ header {
   box-shadow: 0 4px 0 rgba(0, 0, 0, 0.08), 0 3px 5px 0 rgba(0, 0, 0, 0.12);
 }
 
-nav {
+nav {  
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 20px;
 }
 
 a {
   text-decoration: none;
   color: inherit;
   font-size: 20px;
+  padding: 20px;  
 }
 
-#name {
-  width: 150px;
+#name{
+  padding: 20px;
+  width: 200px;
 }
 
 main {
@@ -40,8 +41,9 @@ main {
   padding: 20px;
 }
 
-#inicio {
-  margin-top: 90px;
+section{
+  min-width: 50vw;
+  max-width: 100vw;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -49,18 +51,21 @@ main {
 }
 
 .photo {
+  margin-top: 110px;
   border-radius: 50%;
-  width: 300px;
+  width: 350px;
 }
 
 h1 {
   font-size: 36px;
   font-weight: 700;
+  margin-top: 20px;
 }
 
 p {
   font-size: 18px;
   text-align: center;
+  margin: 20px;
 }
 
 button {
@@ -89,18 +94,19 @@ article {
   background-color: rgba(175, 89, 158, 0.3);
   border-radius: 10px;
   padding: 30px;
+  
 }
 
 div{
-  max-width: 400px;
+  width: 50vw;
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
 .icon {
-  width: 100px;
-  margin: 0px 40px;
+  width: 25vw;
+  padding: 0px 10px;
 }
 
 footer {
