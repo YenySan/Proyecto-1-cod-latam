@@ -7,33 +7,33 @@
   scroll-behavior: smooth;
   font-family: "Lato", sans-serif;
   line-height: 1.5;
+  color: #0f0f0f;
 }
 
 header {
   width: 100%;
   height: 90px;
   position: fixed;
-  background-color: #fbfbfb;  
+  background-color: #fbfbfb;
   box-shadow: 0 4px 0 rgba(0, 0, 0, 0.08), 0 3px 5px 0 rgba(0, 0, 0, 0.12);
 }
 
-nav {
+nav ul {
+  list-style: none;
   display: flex;
-  flex-direction: row;
-  align-items: center;  
   justify-content: space-between;
-  margin: 15px 30px 15px;
+  margin-top: 20px;
+  padding: 10px;
 }
 
-a {
+nav ul li a {
   text-decoration: none;
   color: inherit;
-  font-size: 20px;  
+  font-size: 28px;
 }
 
-#name {  
-  width: 200px;
-  margin-left: 10px;
+#name {
+  width: 130px;
 }
 
 main {
@@ -42,46 +42,45 @@ main {
 }
 
 section {
-  height: 100%;
+  width: 100%;
+  min-width: 280px;
   min-height: 100vh;
-  width: 100%; 
-  max-width: 1200px;
-  min-width: 400px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 
 .photo {
   margin-top: 110px;
   border-radius: 50%;
-  width: 80%;
-  max-width: fit-content;
+  max-width: 20rem;
 }
 
 h1 {
-  color: #0f0f0f;
   font-size: 36px;
-  font-weight: 700;
+  font-weight: bold;
   margin-top: 20px;
 }
 
 p {
   font-size: 18px;
-  color: #0f0f0f;
-  text-align: center;
-  margin: 20px;
-  max-width: 80vw;
+  margin: 20px auto 20px;
+  max-width: 70vw;
 }
 
 button {
   background-color: #af599e;
-  color: #fbfbfb;
   border: none;
   border-radius: 30px;
   padding: 10px;
+}
+
+button a {
+  color: #fbfbfb;
   font-size: 20px;
+  text-decoration: none;
 }
 
 article {
@@ -93,33 +92,37 @@ article {
 
 h2 {
   font-size: 28px;
-  color: #0f0f0f;
-  text-align: center;
 }
 
-ul {
+#contacto ul {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
   list-style: none;
-  width: 100vw;
-  max-width: 50vw;
 }
 
-.icon {
-  width: 60px;
-  margin: 20px;
+#contacto li {
+  font-size: 4rem;
+  margin: 10px;
+}
+
+#contacto li:hover {
+  transition: 1s;
+  transform: scale(1.5);
 }
 
 footer {
-  width: 110%;
+  width: 100%;
   height: 90px;
   background-color: #af599e;
   color: #fbfbfb;
-  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
 }
 
 h3 {
   font-size: 28px;
-  padding: 25px;
+  color: #fbfbfb;
 }
